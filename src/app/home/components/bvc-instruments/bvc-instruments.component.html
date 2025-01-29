@@ -1,0 +1,61 @@
+<div class="mt-20">
+  <h1 class="underline underline-offset-8 decoration-secondary-rendivalores text-3xl text-center font-bold text-primary-rendivalores">
+    {{ 'bvc_table.title' | translate }}
+  </h1>
+  <p class="text-center mb-10 mt-5 px-10 text-gray-500 w-9/12 mx-auto">
+    {{ 'bvc_table.link_a' | translate }}
+    <a class="font-semibold text-secondary-rendivalores underline underline-offset-4" href="assets/pdfs/resumen/resumen-diario-rendivalores.pdf" target="_blank">Informe de cierre diario</a>
+    {{ 'bvc_table.link_b' | translate }}
+  </p>
+  <div class="w-full bg-center bg-" style="background-image: url('./assets/images/velas2.svg');">
+    <div class="flex flex-col w-11/12 xl:w-9/12 mx-auto">
+      <div class="h-14 bg-primary-rendivalores flex items-center justify-center rounded-t-lg">
+        <h2 class="text-white text-center font-semibold text-xl">{{'bvc_table.table_title' | translate }}</h2>
+      </div>
+      <div *ngIf="(data$ | async)?.length !== 0; else noData">
+        <table class="table-fixed w-full">
+          <thead>
+          <tr class="bg-gray-200 h-14 text-gray-500">
+            <th class="w-10 xl:w-30"></th>
+            <th>Nombre</th>
+            <th>Precio (Bs)</th>
+            <th>Variación</th>
+          </tr>
+          </thead>
+          <tbody class="backdrop-blur-[100px]">
+            @for (item of (data$ | async); let last = $last; track item) {
+              <tr [ngClass]="{'rounded-b-xl': last}" class="shadow-sm border-b border-gray-200 cursor-pointer" (click)="openDetail(item.COD_SIMB, item.ICON, item.VAR_ABS)">
+                <td class="pl-2 xl:pl-10 py-3">
+                  <div class="flex justify-center items-center w-10 h-10 p-1 rounded-full overflow-hidden">
+                    @if (item.ICON) {
+                      <img [src]="item.ICON" alt="" class="object-cover w-8 h-8 rounded-full">
+                    }
+
+                  </div>
+                </td>
+                <td class="py-3 text-center text-gray-500">
+                  <span class="font-semibold whitespace-nowrap"> {{ item.COD_SIMB + ' '}} <span class="hidden md:table-cell whitespace-nowrap font-normal"> {{ item.DESC_SIMB }}</span></span>
+
+                </td>
+                <td class="py-3 text-center text-gray-500 font-semibold">{{ item.PRECIO ? item.PRECIO * 1 : "" }}</td>
+                <td class="py-3 text-center font-semibold" [ngClass]="{'text-red-500': item.VAR_ABS * 1 < 0, 'text-green-500': item.VAR_ABS * 1 >= 0}">
+                  {{ item.VAR_REL ? (item.VAR_REL * 1 | number:'1.2-2') + "%" + " (" + (item.VAR_ABS * 1 | number:'1.2-2') + ")" : "" }}
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+      <ng-template #noData>
+        <p class="bg-gray-50 shadow-md mb-4 border-b border-gray-200 text-center py-3 font-semibold text-gray-500 px-8">
+          El mercado de valores aún no ha abierto. Las cotizaciones se actualizarán automáticamente a partir de las 9:30 AM. Vuelve a revisar entonces para ver las cotizaciones en tiempo real.
+        </p>
+      </ng-template>
+
+      <div *ngIf="(error$ | async) as error">
+        <p class="bg-gray-50 shadow-md mb-4 border-b border-gray-200 text-center py-3 font-semibold text-gray-500 px-8"> {{ error | json}}</p>
+      </div>
+    </div>
+  </div>
+
+</div>

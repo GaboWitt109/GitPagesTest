@@ -1,0 +1,15 @@
+{
+  "header": {
+    "about": "Nosotros",
+    "products": "Casa de Bolsa Agrícola",
+    "mutual_fund": "Fondo Mutual",
+    "news": "Noticias",
+    "contact": "Contacto"
+  },
+  "bvc_table": {
+    "title": "Cotización al Instante",
+    "link_a":  "Consulta y descarga nuestro",
+    "link_b": "de la Bolsa de Valores de Caracas para obtener un análisis completo del mercado. A continuación, te presentamos las cotizaciones del día. Haz clic en cualquier cotización para ver más detalles y profundizar en la información de cada acción.",
+    "table_title": "Bolsa de Valores de Caracas "
+  }
+}

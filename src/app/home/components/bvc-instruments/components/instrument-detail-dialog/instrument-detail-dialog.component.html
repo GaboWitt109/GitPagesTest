@@ -1,0 +1,121 @@
+<div class="overflow-y-scroll max-h-[800px] relative">
+  <button
+    class="absolute top-2 right-2 z-10 focus:outline-none"
+    mat-dialog-close
+  >
+    <mat-icon class="text-gray-500 hover:text-gray-700">close</mat-icon>
+  </button>
+  <div class="relative p-6 flex-auto backdrop-blur-md">
+    <div class="flex flex-col sm:flex-row">
+      <div class="sm:w-1/2">
+
+        <img class="mx-auto h-24" src='./assets/images/logo.png' alt="simbol icon" />
+
+        <div class="text-sm text-gray-600  sm:mr-8">
+          <div class="bg-gray-100 rounded-lg p-4 mb-4">
+            <div class="flex justify-between border-b border-gray-200 pb-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Simbolo:</p>
+              <span class="w-1/2 text-right">{{ data.codSimb }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Código ISIN:</p>
+              <span class="w-1/2 text-right">{{ data.codIsin }}</span>
+            </div>
+
+            <div class="flex justify-between  border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">
+                Acciones en Circulación:
+              </p>
+              <span class="w-1/2 text-right">{{ data.accCirc | number }}</span>
+            </div>
+
+            <div class="flex justify-between  border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Apertura:</p>
+              <span class="w-1/2 text-right">{{ data.open | number }}</span>
+            </div>
+
+            <div class="flex justify-between  border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Máximo:</p>
+              <span class="w-1/2 text-right">{{ data.high | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Mínimo:</p>
+              <span class="w-1/2 text-right">{{ data.low | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Cierre anterior:</p>
+              <span class="w-1/2 text-right">{{ data.previousClose | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Cambio diario:</p>
+              <span class="w-1/2 text-right" [ngClass]="{
+          'text-green-500': (data.changeDaily !== undefined && +data.changeDaily >= 0),
+          'text-red-500': (data.changeDaily !== undefined && +data.changeDaily < 0)
+        }">
+          {{ (data.changeDaily !== undefined && +data.changeDaily >= 0) ? '+' : ''}}{{ data.changeDaily !== undefined ? (data.changeDaily | number) : '' }}
+        </span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">
+                Porcentaje de cambio diario:
+              </p>
+              <span class="w-1/2 text-right" [ngClass]="{
+          'text-green-500': (data.percentChangeDaily !== undefined && +data.percentChangeDaily >= 0),
+          'text-red-500': (data.percentChangeDaily !== undefined && +data.percentChangeDaily < 0)
+        }">
+          {{ (data.percentChangeDaily !== undefined && +data.percentChangeDaily >= 0) ? '+' : ''}}{{ data.percentChangeDaily | percent }}
+        </span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">
+                Volumen Compra (Bid):
+              </p>
+              <span class="w-1/2 text-right">{{ data.bidVolume | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Precio:</p>
+              <span class="w-1/2 text-right">{{ data.bidPrice | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">
+                Volumen Venta (Ask):
+              </p>
+              <span class="w-1/2 text-right">{{ data.askVolume | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Precio:</p>
+              <span class="w-1/2 text-right">{{ data.askPrice | number }}</span>
+            </div>
+
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Capital (Bs):</p>
+              <span class="w-1/2 text-right">{{ data.capitalBs | number }}</span>
+            </div>
+            <div class="flex justify-between border-b border-gray-200 py-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Capital (US):</p>
+              <span class="w-1/2 text-right">${{ data.capitalUs | number }}</span>
+            </div>
+
+            <div class="flex justify-between pt-2">
+              <p class="w-1/2 text-gray-500 font-semibold">Moneda:</p>
+              <span class="w-1/2 text-right">{{ data.currency }}</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="p-6 text-lg text-gray-600 sm:mr-8 sm:w-1/2">
+        <div id="container"></div>
+      </div>
+    </div>
+  </div>
+</div>

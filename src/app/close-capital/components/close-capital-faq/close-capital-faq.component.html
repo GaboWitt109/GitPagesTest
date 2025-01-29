@@ -1,0 +1,47 @@
+<div class="w-11/12 xl:w-10/12 mx-auto xl:mt-10 mt-1 mb-10">
+  <div class="mt-10">
+    <!-- Accordion -->
+    <div *ngFor="let item of accordionItems; let i = index" class="w-11/12 xl:w-10/12 mx-auto">
+      <!-- Header -->
+      <h2>
+        <button 
+          type="button"
+          (click)="toggleAccordion(i)"
+          class="bg-secondary-rendivalores flex items-center justify-between w-full p-3 font-medium text-white border border-gray-200 text-left"
+          [ngClass]="{
+            'rounded-t-3xl': i === 0,
+            'rounded-b-3xl': i === accordionItems.length - 1
+          }"
+        >
+          <span class="flex items-center ml-2">{{ item.title }}</span>
+          <svg
+            [ngClass]="{ 'rotate-180': activeIndex === i }"
+            class="w-3 h-3 shrink-0 mr-4 transition-transform"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 10 6"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5 5 1 1 5"
+            />
+          </svg>
+        </button>
+      </h2>
+
+      <!-- Body -->
+
+      <div *ngIf="activeIndex === i" class="m-2 text-justify">
+        <p class="text-gray-500">{{ item.content }}</p>
+      </div>
+    </div>
+  </div>   
+
+  <div class="mx-auto text-center mt-5">
+    <button class="w-auto sm:w-auto py-3 px-6 border-2 border-white bg-primary-rendivalores rounded-full hover:bg-secondary-rendivalores mt-2 sm:mt-0 text-white ">
+      <a href="http://rendivaloresfondomutual.com/wp-content/uploads/2020/06/Preguntas-frecuentes.pdf" target="_blank"> Ver Más Preguntas Frecuentes </a></button>
+  </div>   
+</div>
