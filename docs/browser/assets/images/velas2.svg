@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="929.774" height="852" viewBox="0 0 929.774 852">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7b40"/>
+      <stop offset="1" stop-color="#5acb7c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f82626"/>
+      <stop offset="1" stop-color="#ff7e7e"/>
+    </linearGradient>
+  </defs>
+  <g id="Velas_2" data-name="Velas 2" transform="translate(-761.921 -2251)">
+    <g id="Grupo_31" data-name="Grupo 31" transform="translate(1648.693 2315.343)">
+      <rect id="Rectángulo_31" data-name="Rectángulo 31" width="7.728" height="401.511" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_32" data-name="Grupo 32" transform="translate(1527.028 2491.967)">
+      <rect id="Rectángulo_32" data-name="Rectángulo 32" width="7.728" height="339.799" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_33" data-name="Grupo 33" transform="translate(1405.362 2594.434)">
+      <rect id="Rectángulo_33" data-name="Rectángulo 33" width="7.728" height="258.635" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_34" data-name="Grupo 34" transform="translate(1283.695 2642.897)">
+      <rect id="Rectángulo_34" data-name="Rectángulo 34" width="7.728" height="347.255" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_35" data-name="Grupo 35" transform="translate(1162.029 2251)">
+      <rect id="Rectángulo_35" data-name="Rectángulo 35" width="7.728" height="852" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_36" data-name="Grupo 36" transform="translate(1040.363 2448.382)">
+      <rect id="Rectángulo_36" data-name="Rectángulo 36" width="7.728" height="401.511" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_37" data-name="Grupo 37" transform="translate(918.698 2656.49)">
+      <rect id="Rectángulo_37" data-name="Rectángulo 37" width="7.728" height="284.286" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_38" data-name="Grupo 38" transform="translate(797.032 2739.574)">
+      <rect id="Rectángulo_38" data-name="Rectángulo 38" width="7.728" height="333.461" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Intersección_7" data-name="Intersección 7" d="M-232.731,771.882a9,9,0,0,1-7.344-8.848v-163a9,9,0,0,1,9-9h59a9,9,0,0,1,8.773,6.983V765.051a9.01,9.01,0,0,1-7.117,6.831Z" transform="translate(1854.496 1835.965)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_8" data-name="Intersección 8" d="M-231.41,694a9,9,0,0,1-9-9V600a9,9,0,0,1,6.3-8.588h64.4a9,9,0,0,1,6.3,8.588v85a9,9,0,0,1-9,9Z" transform="translate(1732.832 2020)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_9" data-name="Intersección 9" d="M-232.736,669.375a9.007,9.007,0,0,1-7.678-7.2V598.726a9,9,0,0,1,8.835-7.277h59a9,9,0,0,1,9,9v60a9,9,0,0,1-7.842,8.926Z" transform="translate(1611 2091.552)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_10" data-name="Intersección 10" d="M-234.1,696.641a9.022,9.022,0,0,1-5.979-5.68V597.039a9.023,9.023,0,0,1,5.809-5.629h64.383A9,9,0,0,1-163.579,600v88a9,9,0,0,1-6.478,8.642Z" transform="translate(1489 2138)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_11" data-name="Intersección 11" d="M-234.246,820.544A9,9,0,0,1-240.412,812V600a9,9,0,0,1,6.168-8.545h64.664A9,9,0,0,1-163.411,600V812a9,9,0,0,1-6.166,8.545Z" transform="translate(1367.833 1971)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_12" data-name="Intersección 12" d="M-234.27,712.669a9.015,9.015,0,0,1-6.142-6.859V598.347a9,9,0,0,1,8.833-7.268h59a9,9,0,0,1,9,9v104a9,9,0,0,1-6.308,8.59Z" transform="translate(1246 1999.921)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_13" data-name="Intersección 13" d="M-233.661,677.624A9,9,0,0,1-240.08,669V600a9,9,0,0,1,6.107-8.525h64.787a9.017,9.017,0,0,1,5.885,6.532v72.985a9.017,9.017,0,0,1-6.2,6.632Z" transform="translate(1124.502 2158)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_14" data-name="Intersección 14" d="M-231.414,692a9,9,0,0,1-9-9V600a9,9,0,0,1,6.49-8.645h64.02a9,9,0,0,1,6.49,8.645v83a9,9,0,0,1-9,9Z" transform="translate(1002.836 2243)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

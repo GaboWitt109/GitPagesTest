@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="746.576" height="1014.308" viewBox="0 0 746.576 1014.308">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e7b40"/>
+      <stop offset="1" stop-color="#5acb7c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f82626"/>
+      <stop offset="1" stop-color="#ff7e7e"/>
+    </linearGradient>
+  </defs>
+  <g id="velas" transform="translate(135.077 -2960.692)">
+    <g id="Grupo_41" data-name="Grupo 41" transform="translate(571.72 3322.9)">
+      <rect id="Rectángulo_41" data-name="Rectángulo 41" width="7.142" height="466.766" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_42" data-name="Grupo 42" transform="translate(459.278 3350.899)">
+      <rect id="Rectángulo_42" data-name="Rectángulo 42" width="7.142" height="547.207" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_43" data-name="Grupo 43" transform="translate(346.834 3259.735)">
+      <rect id="Rectángulo_43" data-name="Rectángulo 43" width="7.142" height="563.714" transform="translate(0 0)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_44" data-name="Grupo 44" transform="translate(234.391 2960.692)">
+      <rect id="Rectángulo_44" data-name="Rectángulo 44" width="7.142" height="652.935" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_45" data-name="Grupo 45" transform="translate(121.947 3137.405)">
+      <rect id="Rectángulo_45" data-name="Rectángulo 45" width="7.142" height="616.782" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_46" data-name="Grupo 46" transform="translate(9.504 3357.436)">
+      <rect id="Rectángulo_46" data-name="Rectángulo 46" width="7.142" height="556.61" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Intersección_3" data-name="Intersección 3" d="M9.418,141.445a9,9,0,0,1-9-9v-123a9,9,0,0,1,9-9h54a9,9,0,0,1,8,4.873V136.572a9,9,0,0,1-8,4.873Z" transform="translate(539.581 3485.555)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_4" data-name="Intersección 4" d="M9,165.4a9,9,0,0,1-8.86-7.413V7.817A9,9,0,0,1,9,.4H63a9,9,0,0,1,8.558,6.207V159.2A9,9,0,0,1,63,165.4Z" transform="translate(427 3541.596)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_5" data-name="Intersección 5" d="M9.3,171a9,9,0,0,1-9-9V9A9,9,0,0,1,7.5.18H65.1A9.015,9.015,0,0,1,71.42,5.1V165.9A9,9,0,0,1,63.3,171Z" transform="translate(314.696 3456)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_6" data-name="Intersección 6" d="M9,198a9,9,0,0,1-8.748-6.876V6.876A9.013,9.013,0,0,1,6.968.23H65.032a9.015,9.015,0,0,1,6.639,6.352V191.418A9,9,0,0,1,63,198Z" transform="translate(202 3188)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+    <path id="Intersección_1" data-name="Intersección 1" d="M9.191,187a9,9,0,0,1-9-9V9A9,9,0,0,1,6.731.34H64.651A9,9,0,0,1,71.191,9V178a9,9,0,0,1-9,9Z" transform="translate(89.809 3352)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <path id="Intersección_2" data-name="Intersección 2" d="M9.635,169a9,9,0,0,1-9-9V9A9,9,0,0,1,6.957.405H65.312a9.016,9.016,0,0,1,6.106,6.626V161.969A9,9,0,0,1,62.635,169Z" transform="translate(-22.635 3551)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+    <g id="Grupo_47" data-name="Grupo 47" transform="translate(-102.938 3665.354)">
+      <rect id="Rectángulo_47" data-name="Rectángulo 47" width="7.142" height="309.646" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="Grupo_64" data-name="Grupo 64" transform="translate(-135.077 3773.26)">
+      <rect id="Rectángulo_64" data-name="Rectángulo 64" width="71.419" height="93.836" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
